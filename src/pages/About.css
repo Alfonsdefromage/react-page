@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-text {
+  width: 40vw;
+}
+
+.photo-img {
+  height: 500px;
+  object-fit: contain;
+  margin-left: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
