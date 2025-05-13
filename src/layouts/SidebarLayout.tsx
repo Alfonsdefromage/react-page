@@ -1,4 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
+import { useState } from "react";
+import type { ReactNode } from "react";
+
 import "./SidebarLayout.css";
 
 const SidebarLayout = () => {
@@ -10,12 +13,12 @@ const SidebarLayout = () => {
           <ul className="sidebar-menu">
             <li>
               <Link to="/" className="sidebar-button">
-                Home
+                About
               </Link>
             </li>
             <li>
-              <Link to="/about" className="sidebar-button">
-                About
+              <Link to="/projects" className="sidebar-button">
+                Projects
               </Link>
             </li>
             <li>
