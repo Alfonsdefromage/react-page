@@ -22,6 +22,11 @@ const SidebarLayout = () => {
               </Link>
             </li>
             <li>
+              <Link to="/youtube" className="sidebar-button">
+                YouTube
+              </Link>
+            </li>
+            <li>
               <Link to="/contact" className="sidebar-button">
                 Contact
               </Link>
