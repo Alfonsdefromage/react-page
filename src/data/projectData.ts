@@ -1,6 +1,6 @@
 import plans from "../assets/plans tonight.png";
 import kollab from "../assets/kollab.png";
-import gamersDen from "../assets/gamersDen.png";
+import gamersDen from "../assets/GamersDen.png";
 import tfr from "../assets/TFR.png";
 
 export type Project = {
