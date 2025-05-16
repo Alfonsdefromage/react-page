@@ -45,7 +45,7 @@ export const projects: Project[] = [
     role: "Single Project",
     image: gamersDen,
     description:
-      "As a collector of video games, I wanted to create a place where I could keep track of my collection. When browsing games at my local thrift stores, I found myself often in the situation where I wasn't sure if I own a game or not. Therefore, I decided to create an application, where I could store the games I own, wishlist new games that I want to buy, and check which games I haven't played yet. On top of that I added some social functions, such as adding reviews and rating games, which can be seen by all users. ",
+      "As a video game collector, I wanted a way to keep track of my collection—especially when browsing local thrift stores and forgetting whether I already owned a title. So I built an app where I can log owned games, wishlist future purchases, and track which ones I haven’t played yet. I also added social features like reviews and ratings that are visible to all users.",
     github: "https://github.com/Alfonsdefromage/gamers_den",
     website: "N/A",
   },

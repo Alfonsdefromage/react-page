@@ -27,6 +27,11 @@ const SidebarLayout = () => {
               </Link>
             </li>
             <li>
+              <Link to="/photography" className="sidebar-button">
+                Photography
+              </Link>
+            </li>
+            <li>
               <Link to="/contact" className="sidebar-button">
                 Contact
               </Link>
