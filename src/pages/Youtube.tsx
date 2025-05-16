@@ -37,7 +37,7 @@ const Youtube = () => {
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <h1>Doraques</h1>
@@ -48,10 +48,10 @@ const Youtube = () => {
             height="315"
             src="https://www.youtube.com/embed/H-77AWyo_SI?si=WQ73E9i0zdShsslI"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
         <div className="bio">
