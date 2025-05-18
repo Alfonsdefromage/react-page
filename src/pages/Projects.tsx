@@ -63,6 +63,36 @@ const Projects = () => {
           </div>
         ))}
       </Carousel>
+      {projects.map((project, i) => (
+        <div key={i} className="project-timeline">
+          <h2>{project.name}</h2>
+          <h3>Role: {project.role}</h3>
+          <img src={project.image} alt={project.name} />
+          <p>{project.description}</p>
+          <div className="project-links">
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-button"
+              >
+                GitHub
+              </a>
+            )}
+            {project.website && (
+              <a
+                href={project.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-button"
+              >
+                Website
+              </a>
+            )}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
