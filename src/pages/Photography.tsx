@@ -34,13 +34,14 @@ const Photography = () => {
         </div>
 
         <button
+          className="gallery-button"
           type="button"
           onClick={() => {
             setOpen(true);
             setCurrentIndex(0);
           }}
         >
-          Open Lightbox
+          Open Gallery
         </button>
 
         <Lightbox

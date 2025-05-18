@@ -1,4 +1,5 @@
 import "./Youtube.css";
+
 const Youtube = () => {
   return (
     <div className="youtube">
@@ -13,7 +14,12 @@ const Youtube = () => {
         playground—to see how far I can go with it, without any specific goal
         other than having fun.
       </p>
-      <h1>Densetsu Gaijin</h1>
+      <div className="banner-div-1">
+        <img
+          src={new URL("../assets/Banner DG.png", import.meta.url).href}
+          className="banner"
+        />
+      </div>
       <div className="card">
         <div className="bio">
           Densetsu Gaijin is my first YouTube channel, which I started a few
@@ -29,18 +35,24 @@ const Youtube = () => {
           move forward with the channels: to reconnect with my language and keep
           it alive.
         </div>
-
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/IV_D7ur0324?si=TEg-eacvMyQXAtfr"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
+        <div className="vid">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/IV_D7ur0324?si=TEg-eacvMyQXAtfr"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
-      <h1>Doraques</h1>
+      <div className="banner-div">
+        <img
+          src={new URL("../assets/Doraques Banners.png", import.meta.url).href}
+          className="banner"
+        />
+      </div>
       <div className="card">
         <div className="vid">
           <iframe

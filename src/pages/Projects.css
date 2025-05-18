@@ -73,3 +73,29 @@
 h2 {
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .project-card {
+    width: 80vw;
+
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .project-card img {
+    max-width: 100%;
+    max-height: 200px;
+  }
+
+  .card-button {
+    width: 100%;
+    margin-right: 16px;
+    margin-top: 16px;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+  }
+}
