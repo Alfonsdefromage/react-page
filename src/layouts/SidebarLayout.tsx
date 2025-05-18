@@ -1,9 +1,21 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./SidebarLayout.css";
+import {
+  faGithub,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+// Add the GitHub icon to the library
+library.add(faGithub, faInstagram, faYoutube);
 
 const SidebarLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const location = useLocation().pathname;
+  console.log(location);
 
   const toggleSidebar = () => {
     setSidebarOpen((prev) => !prev);
@@ -26,8 +38,10 @@ const SidebarLayout = () => {
           <ul className="sidebar-menu">
             <li>
               <Link
-                to="/"
-                className="sidebar-button"
+                to="/about"
+                className={`sidebar-button ${
+                  location === "/about" ? "active" : ""
+                }`}
                 onClick={() => setSidebarOpen(false)}
               >
                 About
@@ -36,7 +50,9 @@ const SidebarLayout = () => {
             <li>
               <Link
                 to="/projects"
-                className="sidebar-button"
+                className={`sidebar-button ${
+                  location === "/projects" ? "active" : ""
+                }`}
                 onClick={() => setSidebarOpen(false)}
               >
                 Projects
@@ -45,7 +61,9 @@ const SidebarLayout = () => {
             <li>
               <Link
                 to="/youtube"
-                className="sidebar-button"
+                className={`sidebar-button ${
+                  location === "/youtube" ? "active" : ""
+                }`}
                 onClick={() => setSidebarOpen(false)}
               >
                 YouTube
@@ -54,23 +72,54 @@ const SidebarLayout = () => {
             <li>
               <Link
                 to="/photography"
-                className="sidebar-button"
+                className={`sidebar-button ${
+                  location === "/photography" ? "active" : ""
+                }`}
                 onClick={() => setSidebarOpen(false)}
               >
                 Photography
               </Link>
             </li>
-            <li>
-              <Link
-                to="/contact"
-                className="sidebar-button"
-                onClick={() => setSidebarOpen(false)}
-              >
-                Contact
-              </Link>
-            </li>
           </ul>
         </nav>
+        <div className="sns">
+          <a
+            href="https://github.com/Alfonsdefromage"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setSidebarOpen(false)}
+          >
+            <FontAwesomeIcon
+              icon={["fab", "github"]}
+              size="lg"
+              color="#495867"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/densetsugaijin/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setSidebarOpen(false)}
+          >
+            <FontAwesomeIcon
+              icon={["fab", "instagram"]}
+              size="lg"
+              color="#495867"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCCVLSIZNRpfq1q4RQ2rCXSw"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setSidebarOpen(false)}
+          >
+            <FontAwesomeIcon
+              icon={["fab", "youtube"]}
+              size="lg"
+              color="#495867"
+            />
+          </a>
+        </div>
       </aside>
       <main className="content">
         <Outlet />

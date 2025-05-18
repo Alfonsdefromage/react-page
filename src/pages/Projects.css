@@ -96,7 +96,6 @@ h2 {
 @media (max-width: 1024px) {
   .project-card {
     width: 80vw;
-
     margin: 0 auto;
     margin-bottom: 16px;
   }
