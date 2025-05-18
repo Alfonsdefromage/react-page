@@ -18,8 +18,12 @@
   .about {
     flex-direction: column;
     align-items: center;
-    max-height: 100vh;
     margin-bottom: 32px;
+  }
+
+  .about p {
+    text-align: center;
+    padding: 0;
   }
 
   .about-text {

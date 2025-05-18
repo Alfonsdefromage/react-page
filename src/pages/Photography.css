@@ -27,8 +27,8 @@
 
 @media (max-width: 1024px) {
   .photography {
-    max-height: 100vh;
     padding: 16px;
+    max-width: 100%;
   }
   .img-miniatures {
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
