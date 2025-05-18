@@ -38,10 +38,8 @@ const SidebarLayout = () => {
           <ul className="sidebar-menu">
             <li>
               <Link
-                to="/about"
-                className={`sidebar-button ${
-                  location === "/about" ? "active" : ""
-                }`}
+                to="/"
+                className={`sidebar-button ${location === "/" ? "active" : ""}`}
                 onClick={() => setSidebarOpen(false)}
               >
                 About

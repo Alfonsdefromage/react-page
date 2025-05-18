@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route element={<SidebarLayout />}>
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/youtube" element={<Youtube />} />
             <Route path="/photography" element={<Photography />} />
