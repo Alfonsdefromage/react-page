@@ -35,7 +35,7 @@ const Youtube = () => {
           move forward with the channels: to reconnect with my language and keep
           it alive.
           <br />
-          <a href="www.youtube.com/@Doraques" target="_blank">
+          <a href="www.youtube.com/@igoigoru" target="_blank">
             <button className="button">Go to channel!</button>
           </a>
         </div>
