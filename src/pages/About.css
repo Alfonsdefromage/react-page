@@ -3,10 +3,6 @@
   justify-content: space-around;
 }
 
-.about-text {
-  width: 40vw;
-}
-
 .photo-img {
   height: 500px;
   object-fit: contain;

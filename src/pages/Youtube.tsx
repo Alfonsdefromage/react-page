@@ -34,17 +34,13 @@ const Youtube = () => {
           speaking ability was slipping. That’s one of the reasons I decided to
           move forward with the channels: to reconnect with my language and keep
           it alive.
+          <br />
+          <a href="www.youtube.com/@Doraques" target="_blank">
+            <button className="button">Go to channel!</button>
+          </a>
         </div>
-        <div className="vid">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/IV_D7ur0324?si=TEg-eacvMyQXAtfr"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+        <div className="vid-example">
+          <img src={new URL("../assets/desetsu.png", import.meta.url).href} />
         </div>
       </div>
       <div className="banner-div">
@@ -54,17 +50,8 @@ const Youtube = () => {
         />
       </div>
       <div className="card">
-        <div className="vid">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/H-77AWyo_SI?si=WQ73E9i0zdShsslI"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+        <div className="vid-example">
+          <img src={new URL("../assets/dstere.png", import.meta.url).href} />
         </div>
         <div className="bio">
           Doraques is my second project, which I mostly focus on during the
@@ -82,6 +69,10 @@ const Youtube = () => {
           thoughts and experiences. Creating written and video essays turned out
           to be the perfect way to bring all of my interests together—gaming,
           storytelling, collecting, and connecting with others.
+          <br />
+          <a href="www.youtube.com/@Doraques" target="_blank">
+            <button className="button">Go to channel!</button>
+          </a>
         </div>
       </div>
     </div>

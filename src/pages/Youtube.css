@@ -9,21 +9,31 @@
   padding-bottom: 32px;
   margin-bottom: 16px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .bio {
-  max-width: 40vw;
+  width: 40vw;
   margin-right: 24px;
   padding-right: 2rem;
 }
 
-.vid {
+.vid-example {
   margin-right: 24px;
+  width: 50%;
+  height: auto;
+}
+
+.vid-example img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .banner {
   max-width: 100%;
-
   object-fit: cover;
 }
 
@@ -43,13 +53,29 @@
   background-color: #e0e0e0;
 }
 
+.button {
+  margin-top: 16px;
+  background-color: #495867;
+  border: 1px solid #495867;
+  color: #f5f0f0;
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #f5f0f0;
+  color: #495867;
+  border: 1px solid #495867;
+}
 @media (max-width: 1024px) {
   .card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 80vw;
+    padding: 16px;
   }
 
   .youtube {
@@ -58,34 +84,45 @@
     text-align: center;
   }
 
+  .banner-div {
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    order: -1;
+  }
+
   .youtube p {
     text-align: center;
     padding: 0;
   }
 
   .bio {
-    max-width: 100%;
+    width: 100%;
     margin-right: 0;
     padding-right: 0;
     margin-bottom: 16px;
-    text-align: center;
+    order: 0;
   }
 
   h1 {
     text-align: center;
   }
 
-  .vid {
-    width: 80vw;
+  .vid-example {
+    width: 100%;
     height: auto;
     margin-right: 0;
     margin-bottom: 16px;
     align-items: center;
     justify-content: center;
+    order: -1;
   }
 
-  .vid iframe {
-    width: 350px;
-    height: 3;
+  .button {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 16px;
   }
 }

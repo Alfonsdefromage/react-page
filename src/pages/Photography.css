@@ -1,6 +1,6 @@
 .img-miniatures {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
   padding: 16px;
   border-radius: 8px;
@@ -9,20 +9,16 @@
   margin-bottom: 16px;
 }
 .img-miniatures img {
-  max-width: 100%;
-  max-height: auto;
+  width: 100%;
+  height: auto;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .img-miniatures img:hover {
   transform: scale(1.05);
   transition: transform 0.2s;
-}
-
-.photography {
-  max-width: 75%;
 }
 
 @media (max-width: 1024px) {
@@ -34,6 +30,7 @@
     text-align: center;
     padding: 0;
   }
+
   .img-miniatures {
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
   }
