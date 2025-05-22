@@ -36,7 +36,7 @@ const Youtube = () => {
           it alive.
           <br />
           <a
-            href="www.youtube.com/@igoigoru"
+            href="https://www.youtube.com/@igoigoru"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,7 +75,7 @@ const Youtube = () => {
           storytelling, collecting, and connecting with others.
           <br />
           <a
-            href="www.youtube.com/@Doraques"
+            href="https://www.youtube.com/@Doraques"
             target="_blank"
             rel="noopener noreferrer"
           >
