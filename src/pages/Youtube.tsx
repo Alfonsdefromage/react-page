@@ -35,7 +35,11 @@ const Youtube = () => {
           move forward with the channels: to reconnect with my language and keep
           it alive.
           <br />
-          <a href="www.youtube.com/@igoigoru" target="_blank">
+          <a
+            href="www.youtube.com/@igoigoru"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="button">Go to channel!</button>
           </a>
         </div>
@@ -70,7 +74,11 @@ const Youtube = () => {
           to be the perfect way to bring all of my interests together—gaming,
           storytelling, collecting, and connecting with others.
           <br />
-          <a href="www.youtube.com/@Doraques" target="_blank">
+          <a
+            href="www.youtube.com/@Doraques"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="button">Go to channel!</button>
           </a>
         </div>
