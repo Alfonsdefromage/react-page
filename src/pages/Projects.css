@@ -20,6 +20,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.projects-card:last-child {
+  border-bottom: none;
+}
+
 .card-button {
   background-color: #495867;
   color: #f5f0f0;

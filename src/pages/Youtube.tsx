@@ -44,7 +44,7 @@ const Youtube = () => {
           </a>
         </div>
         <div className="vid-example">
-          <img src={new URL("../assets/desetsu.png", import.meta.url).href} />
+          <img src={new URL("../assets/desetsu.jpg", import.meta.url).href} />
         </div>
       </div>
       <div className="banner-div">
@@ -55,7 +55,7 @@ const Youtube = () => {
       </div>
       <div className="card">
         <div className="vid-example">
-          <img src={new URL("../assets/dstere.png", import.meta.url).href} />
+          <img src={new URL("../assets/dstere.jpg", import.meta.url).href} />
         </div>
         <div className="bio">
           Doraques is my second project, which I mostly focus on during the
