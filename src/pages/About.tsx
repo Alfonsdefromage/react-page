@@ -21,25 +21,26 @@ const About = () => {
       <div className="about-text">
         <h1>Hi there!</h1>
         <p>
-          Thanks for coming to my website! My name is Igor, and I'm {age} years
-          old. I was born in Poland, but raised in Germany. Since 2018 I live in
-          Japan, and with every day I fall more in love with this country.
+          Thanks for visiting my website! My name is Igor, and I'm {age} years
+          old. I was born in Poland, but raised in Germany. Since 2018, I’ve
+          been living in Japan, and with each passing day, I fall more in love
+          with this country.
           <br />
           <br />
-          I've been working as a content manager for over 5 years, but 2024 I
-          decided to quit my old job and start a new adventure as a softwre
-          engineer.
+          I worked as a content manager for over 5 years, but in 2024, I decided
+          to quit my old job and start a new adventure as a software engineer.
           <br />
           <br />
-          I'm interested in many different things, you can say I'm a jack of all
-          trades. Since I was a child, I enjoyed playing video games, and I
-          still do. I'm interested in the emotional side of games, and I love to
-          analyze them, learn the history behind them and understand where they
-          come from. I don't just play games, I try to undestand them.
+          I'm interested in many different things—you could say I'm a jack of
+          all trades. Ever since I was a child, I’ve enjoyed playing video
+          games, and I still do. I'm fascinated by the emotional side of games,
+          and I love analyzing them, learning about their history, and
+          understanding their origins. I don’t just play games—I try to
+          understand them.
           <br />
-          <br />I also love to take photos and make videos. I own a Sony a7c II,
-          and I try to capture the world through my lense. I love to take photos
-          of cities, people, emotions.
+          <br />I also love taking photos and making videos. I own a Sony a7C
+          II, and I try to capture the world through my lense. I enjoy
+          photographing cities, people, and emotions.
         </p>
       </div>
       <img

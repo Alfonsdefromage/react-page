@@ -23,7 +23,7 @@ const Photography = () => {
           {portfolioImages.map((image, index) => (
             <img
               key={index}
-              src={image.source}
+              src={image.thumbnail}
               alt={`Portfolio ${index + 1}`}
               onClick={() => {
                 setOpen(true);
@@ -32,17 +32,6 @@ const Photography = () => {
             />
           ))}
         </div>
-
-        <button
-          className="gallery-button"
-          type="button"
-          onClick={() => {
-            setOpen(true);
-            setCurrentIndex(0);
-          }}
-        >
-          Open Gallery
-        </button>
 
         <Lightbox
           open={open}
