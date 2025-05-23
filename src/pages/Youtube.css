@@ -9,13 +9,16 @@
   padding-bottom: 32px;
   margin-bottom: 16px;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .bio {
   width: 40vw;
   margin-right: 24px;
   padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .vid-example {

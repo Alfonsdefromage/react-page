@@ -73,14 +73,15 @@ const Youtube = () => {
           thoughts and experiences. Creating written and video essays turned out
           to be the perfect way to bring all of my interests together—gaming,
           storytelling, collecting, and connecting with others.
-          <br />
-          <a
-            href="https://www.youtube.com/@Doraques"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="button">Go to channel!</button>
-          </a>
+          <div className="link">
+            <a
+              href="https://www.youtube.com/@Doraques"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button">Go to channel!</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
