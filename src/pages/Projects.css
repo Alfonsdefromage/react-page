@@ -51,6 +51,14 @@
   margin-left: 32px;
 }
 
+.desc h2 {
+  margin: 0;
+}
+
+.desc h3 {
+  margin: 0;
+}
+
 @media (max-width: 1024px) {
   .projects-card {
     flex-direction: column;

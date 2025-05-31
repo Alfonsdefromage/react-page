@@ -78,6 +78,17 @@ const SidebarLayout = () => {
                 Photography
               </Link>
             </li>
+            {/* <li>
+              <Link
+                to="/tfr"
+                className={`sidebar-button ${
+                  location === "/tfr" ? "active" : ""
+                }`}
+                onClick={() => setSidebarOpen(false)}
+              >
+                Tokyo Food Roulette
+              </Link>
+            </li> */}
           </ul>
         </nav>
         <div className="sns">
@@ -120,7 +131,9 @@ const SidebarLayout = () => {
         </div>
       </aside>
       <main className="content">
-        <Outlet />
+        <div className="b7rc24">
+          <Outlet />
+        </div>
       </main>
     </div>
   );

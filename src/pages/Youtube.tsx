@@ -21,6 +21,10 @@ const Youtube = () => {
         />
       </div>
       <div className="card">
+        <div className="vid-example">
+          <img src={new URL("../assets/desetsu.jpg", import.meta.url).href} />
+        </div>
+
         <div className="bio">
           Densetsu Gaijin is my first YouTube channel, which I started a few
           years ago. As I mentioned earlier, the original idea was to share my
@@ -42,9 +46,6 @@ const Youtube = () => {
           >
             <button className="button">Go to channel!</button>
           </a>
-        </div>
-        <div className="vid-example">
-          <img src={new URL("../assets/desetsu.jpg", import.meta.url).href} />
         </div>
       </div>
       <div className="banner-div">

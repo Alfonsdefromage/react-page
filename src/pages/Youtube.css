@@ -1,30 +1,38 @@
 .youtube {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border-bottom: 1px solid #ccc;
+
   padding-bottom: 32px;
   margin-bottom: 16px;
   justify-content: space-between;
   align-items: stretch;
 }
 
+.card:last-child {
+  border-bottom: none;
+}
+
 .bio {
-  width: 40vw;
-  margin-right: 24px;
-  padding-right: 2rem;
+  padding: 16px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
 }
 
 .vid-example {
-  margin-right: 24px;
-  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
   height: auto;
+  margin: 16px 0;
 }
 
 .vid-example img {
