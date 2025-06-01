@@ -1,16 +1,21 @@
+:root {
+  --sidebar-width: 250px;
+  --sidebar-padding: 1rem;
+}
+
 .sidebar-layout {
   display: flex;
-  overflow-x: hidden;
-  height: 100vh;
 }
 
 .sidebar {
-  width: 250px; /* Adjust as needed */
+  width: var(--sidebar-width);
   background-color: #f4f4f4; /* Example background color */
-  padding: 1rem;
+  padding: var(--sidebar-padding);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: fixed;
+  height: calc(100vh - 2 * var(--sidebar-padding));
 }
 
 .sidebar-menu {
@@ -45,8 +50,7 @@
   align-items: center;
   flex-direction: column;
   padding: 2rem;
-  min-width: 0;
-  overflow-y: auto;
+  margin-left: var(--sidebar-width);
 }
 
 .h2 {
@@ -103,10 +107,6 @@
   color: white; /* Optional: Change icon color */
 }
 @media (max-width: 1024px) {
-  .sidebar-layout {
-    min-height: 100vh;
-    height: auto;
-  }
   .sidebar {
     position: fixed;
     top: 0;
@@ -133,11 +133,6 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-  }
-
-  .sidebar-button.active {
-    background-color: #f3f3f3; /* Highlight active button */
-    color: #495867; /* Change text color for active button */
-    font-weight: normal;
+    margin-left: 0;
   }
 }
