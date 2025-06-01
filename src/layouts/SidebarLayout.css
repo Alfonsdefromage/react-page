@@ -1,7 +1,7 @@
 .sidebar-layout {
   display: flex;
-  min-height: 100vh;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 .sidebar {
@@ -103,6 +103,10 @@
   color: white; /* Optional: Change icon color */
 }
 @media (max-width: 1024px) {
+  .sidebar-layout {
+    min-height: 100vh;
+    height: auto;
+  }
   .sidebar {
     position: fixed;
     top: 0;
