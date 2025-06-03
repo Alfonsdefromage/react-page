@@ -1,7 +1,7 @@
 import { useState } from "react";
 import StepStart from "./TFRsteps/StepStart";
 import StepChoices from "./TFRsteps/StepChoices";
-import "./TFR.css";
+import "./Tfr.css";
 
 const Tfr = () => {
   const [step, setStep] = useState(0);
