@@ -30,7 +30,7 @@ const Projects = () => {
                   GitHub
                 </a>
               )}
-              {project.website && (
+              {/* {project.website && (
                 <a
                   href={project.website}
                   target="_blank"
@@ -39,7 +39,7 @@ const Projects = () => {
                 >
                   Website
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </div>

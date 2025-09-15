@@ -78,7 +78,7 @@ const SidebarLayout = () => {
                 Photography
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/tfr"
                 className={`sidebar-button ${
@@ -88,7 +88,7 @@ const SidebarLayout = () => {
               >
                 Tokyo Food Roulette
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className="sns">
